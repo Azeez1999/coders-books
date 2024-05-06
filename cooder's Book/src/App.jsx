@@ -10,7 +10,9 @@ import {
 from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Review from "./components/review.jsx"
 import Footer from "./components/footer.jsx";
+
 
 import Home from "./pages/Home";
 
@@ -26,6 +28,7 @@ function App() {
 
           <Route path="/" element={<Home />} />
         </Routes>
+        <Review />
         <Footer/>
       </BrowserRouter>
     </div>
