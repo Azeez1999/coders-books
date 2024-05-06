@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Navbar{
+  background-color: #fd7a4f;
+  position: fixed;
+  backdrop-filter: blur(9px);
+}
+
+
